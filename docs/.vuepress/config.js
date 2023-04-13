@@ -76,4 +76,5 @@ module.exports = {
       //   },
       // ],
    ],
+    base: '/blogs1/'
   }
