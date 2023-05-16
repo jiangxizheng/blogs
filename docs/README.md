@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: "/aa.jpg"
-heroText: Shark Xu
+heroText: jiangxiz
 bgImageStyle: { height: "100%", boxShadow: "0 15px 18px rgba(0,0,0,0.2)" }
 heroImageStyle:
   {

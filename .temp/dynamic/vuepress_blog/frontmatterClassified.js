@@ -3,40 +3,74 @@
  */
 export default {
   "tags": {
+    "html-css": {
+      "key": "html-css",
+      "scope": "tags",
+      "path": "/tag/html-css/",
+      "pageKeys": [
+        "v-2e3567e7"
+      ]
+    },
+    "查看": {
+      "key": "查看",
+      "scope": "tags",
+      "path": "/tag/查看/",
+      "pageKeys": [
+        "v-2e3567e7",
+        "v-fed7c2f2",
+        "v-5a1a55b2",
+        "v-25518bc7"
+      ]
+    },
     "JavaScript": {
       "key": "JavaScript",
       "scope": "tags",
       "path": "/tag/JavaScript/",
       "pageKeys": [
-        "v-7170897d",
-        "v-78617fc6"
+        "v-fed7c2f2",
+        "v-25518bc7"
       ]
     },
-    "手写": {
-      "key": "手写",
+    "jQuery": {
+      "key": "jQuery",
       "scope": "tags",
-      "path": "/tag/手写/",
+      "path": "/tag/jQuery/",
       "pageKeys": [
-        "v-7170897d",
-        "v-78617fc6"
+        "v-5a1a55b2"
       ]
     }
   },
   "categories": {
-    "前端": {
-      "key": "前端",
+    "html-css": {
+      "key": "html-css",
       "scope": "categories",
-      "path": "/categories/前端/",
+      "path": "/categories/html-css/",
       "pageKeys": [
-        "v-7170897d"
+        "v-2e3567e7"
       ]
     },
-    "刷题": {
-      "key": "刷题",
+    "JavaScript": {
+      "key": "JavaScript",
       "scope": "categories",
-      "path": "/categories/刷题/",
+      "path": "/categories/JavaScript/",
       "pageKeys": [
-        "v-78617fc6"
+        "v-fed7c2f2"
+      ]
+    },
+    "jQuery": {
+      "key": "jQuery",
+      "scope": "categories",
+      "path": "/categories/jQuery/",
+      "pageKeys": [
+        "v-5a1a55b2"
+      ]
+    },
+    "Ajax": {
+      "key": "Ajax",
+      "scope": "categories",
+      "path": "/categories/Ajax/",
+      "pageKeys": [
+        "v-25518bc7"
       ]
     }
   },

@@ -1,6 +1,6 @@
 module.exports = {
     title: 'jxz的博客',
-    description: 'YYY',
+    description: '(精通JavaScript,vue(2,3),jQuery,uni-app,html,css...)',
     theme: 'reco',
     nav: [],
     themeConfig: {
@@ -45,7 +45,7 @@ module.exports = {
         {
           size: 4, // size of the particle, default: 2
           shape: "star", // ['star' | 'circle'], // shape of the particle, default: 'star'
-          zIndex: 999999999, // z-index property of the canvas, default: 999999999
+          zIndex: 222, // z-index property of the canvas, default: 999999999
         },
       ],
       // 音乐播放器

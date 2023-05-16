@@ -3,8 +3,8 @@
  */
 export const siteData = {
   "title": "jxz的博客",
-  "description": "YYY",
-  "base": "/",
+  "description": "(精通JavaScript,vue(2,3),jQuery,uni-app,html,css...)",
+  "base": "/blogs1/",
   "headTags": [],
   "pages": [
     {
@@ -12,7 +12,7 @@ export const siteData = {
       "frontmatter": {
         "home": true,
         "heroImage": "/aa.jpg",
-        "heroText": "Shark Xu",
+        "heroText": "jiangxiz",
         "bgImageStyle": {
           "height": "100%",
           "boxShadow": "0 15px 18px rgba(0,0,0,0.2)"
@@ -26,46 +26,103 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-5404b611",
+      "key": "v-3a64b367",
       "path": "/"
     },
     {
-      "title": "手把手教你轻松手写防抖和节流🔥",
+      "title": "html-css",
       "frontmatter": {
-        "title": "手把手教你轻松手写防抖和节流🔥",
+        "title": "html-css",
         "date": "2023-1-1",
         "categories": [
-          "前端"
+          "html-css"
         ],
         "tags": [
-          "JavaScript",
-          "手写"
+          "html-css",
+          "查看"
         ],
         "sticky": 1
       },
       "regularPath": "/blogs/1.html",
       "relativePath": "blogs/1.md",
-      "key": "v-7170897d",
-      "path": "/blogs/1.html"
+      "key": "v-2e3567e7",
+      "path": "/blogs/1.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "样式格式介绍",
+          "slug": "样式格式介绍"
+        },
+        {
+          "level": 3,
+          "title": "html中基础标签",
+          "slug": "html中基础标签"
+        }
+      ]
     },
     {
-      "title": "手把手教你轻松手写防抖和节流🔥",
+      "title": "JavaScript",
       "frontmatter": {
-        "title": "手把手教你轻松手写防抖和节流🔥",
+        "title": "JavaScript",
         "date": "2023-1-1",
         "categories": [
-          "刷题"
+          "JavaScript"
         ],
         "tags": [
           "JavaScript",
-          "手写"
+          "查看"
         ],
         "sticky": 1
       },
       "regularPath": "/blogs/2.html",
       "relativePath": "blogs/2.md",
-      "key": "v-78617fc6",
+      "key": "v-fed7c2f2",
       "path": "/blogs/2.html"
+    },
+    {
+      "title": "jQuery",
+      "frontmatter": {
+        "title": "jQuery",
+        "date": "2023-1-1",
+        "categories": [
+          "jQuery"
+        ],
+        "tags": [
+          "jQuery",
+          "查看"
+        ],
+        "sticky": 1
+      },
+      "regularPath": "/blogs/3.html",
+      "relativePath": "blogs/3.md",
+      "key": "v-5a1a55b2",
+      "path": "/blogs/3.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blogs/5.html",
+      "relativePath": "blogs/5.md",
+      "key": "v-77b04267",
+      "path": "/blogs/5.html"
+    },
+    {
+      "title": "Ajax",
+      "frontmatter": {
+        "title": "Ajax",
+        "date": "2023-1-1",
+        "categories": [
+          "Ajax"
+        ],
+        "tags": [
+          "JavaScript",
+          "查看"
+        ],
+        "sticky": 1
+      },
+      "regularPath": "/blogs/4.html",
+      "relativePath": "blogs/4.md",
+      "key": "v-25518bc7",
+      "path": "/blogs/4.html"
     },
     {
       "frontmatter": {
@@ -97,6 +154,24 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "html-css Tags"
+      },
+      "regularPath": "/tag/html-css/",
+      "key": "v-add31ff8",
+      "path": "/tag/html-css/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "查看 Tags"
+      },
+      "regularPath": "/tag/%E6%9F%A5%E7%9C%8B/",
+      "key": "v-2aa50a6a",
+      "path": "/tag/查看/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "JavaScript Tags"
       },
       "regularPath": "/tag/JavaScript/",
@@ -106,29 +181,47 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "手写 Tags"
+        "title": "jQuery Tags"
       },
-      "regularPath": "/tag/%E6%89%8B%E5%86%99/",
-      "key": "v-de8294a6",
-      "path": "/tag/手写/"
+      "regularPath": "/tag/jQuery/",
+      "key": "v-66172787",
+      "path": "/tag/jQuery/"
     },
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "前端 Categories"
+        "title": "html-css Categories"
       },
-      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
-      "key": "v-14bbbf36",
-      "path": "/categories/前端/"
+      "regularPath": "/categories/html-css/",
+      "key": "v-6dbf3fe0",
+      "path": "/categories/html-css/"
     },
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "刷题 Categories"
+        "title": "JavaScript Categories"
       },
-      "regularPath": "/categories/%E5%88%B7%E9%A2%98/",
-      "key": "v-81dbcd18",
-      "path": "/categories/刷题/"
+      "regularPath": "/categories/JavaScript/",
+      "key": "v-081e6844",
+      "path": "/categories/JavaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "jQuery Categories"
+      },
+      "regularPath": "/categories/jQuery/",
+      "key": "v-73b5aa93",
+      "path": "/categories/jQuery/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Ajax Categories"
+      },
+      "regularPath": "/categories/Ajax/",
+      "key": "v-60bcb791",
+      "path": "/categories/Ajax/"
     }
   ],
   "themeConfig": {
